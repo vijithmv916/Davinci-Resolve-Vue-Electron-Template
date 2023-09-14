@@ -22,7 +22,7 @@ module.exports = {
 
 
   output: {
-    // path: path.resolve(__dirname, 'dist'),
+    path: path.resolve('C:/ProgramData/Blackmagic Design/DaVinci Resolve/Support/Workflow Integration Plugins/com.vue.resolve'),
     // filename: 'main.js',
     clean: true
   },

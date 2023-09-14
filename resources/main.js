@@ -14,7 +14,7 @@ function createWindow() {
         height: 825,
         useContentSize: true,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
+            // preload: path.join(__dirname, 'preload.js'),
             // enableRemoteModule: true,
             // contextIsolation: true,
             // NOTE: Replace the below variable with a more secure implementation. Reference: https://www.electronjs.org/docs/tutorial/security
