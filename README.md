@@ -1,14 +1,24 @@
-# vue-electron
+# Davinci-Resolve-Vue-Electron-Template
+---------------------------------------
 
-An Electron application with Vue
 
-## Recommended IDE Setup
+<div style="display:flex; justify-content: center; align-content: center">
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png" width="100px"/>
+<h1 style="padding-top: 30px">+</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" width="100px"/>
+<h1 style="padding-top: 30px">+</h1>
+<img src="https://vitejs.dev/logo-with-shadow.png" width="100px"/>
 
-## Project Setup
+</div>
 
-### Install
+---
+This repo make to simplify the development process for building the giving the davinci resolve workflow integration plugin
+usually the plugin only using common js, here we using the webpack
+make you own canges according to your needs.
+
+using vite and vue js addon to the repository
+### setup and install using this command
 
 ```bash
 $ npm install
@@ -20,7 +30,7 @@ $ npm install
 $ npm run dev
 ```
 
-### Build
+### Build for production
 
 ```bash
 # For windows
@@ -32,3 +42,9 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+# how to build the plugin
+```bash
+npm run resolve
+```
+
+please change the output location in the `webpack.config.js` before doing the above command.
