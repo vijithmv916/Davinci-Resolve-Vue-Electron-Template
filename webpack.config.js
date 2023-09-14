@@ -16,7 +16,9 @@ module.exports = {
     }
   },
 
-  entry: path.resolve(__dirname, 'src/renderer/src/main.js'),
+  entry: {
+    vue: path.resolve(__dirname, 'src/renderer/src/vue.js')
+  },
 
 
   output: {

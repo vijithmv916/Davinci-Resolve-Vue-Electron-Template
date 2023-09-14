@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BlackmagicDesign>
+    <Plugin>
+        <Id>com.emam.vue</Id>
+        <Name>eMAM-vue</Name>
+        <Version>1.0</Version>
+        <Description>eMAM</Description>
+        <FilePath>main.js</FilePath>
+    </Plugin>
+</BlackmagicDesign>
